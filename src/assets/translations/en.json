@@ -1,0 +1,22 @@
+{
+  "greeting": "Welcome to Gyanoday",
+  "slogan": "Empowering rural youth with digital education.",
+  "cta": "Explore Now",
+  "intro_heading": "What is Gyanoday?",
+  "intro_description": "Gyanoday is a lightweight, offline-first web application designed to deliver an inclusive and engaging educational experience to students in rural areas with limited internet connectivity. The platform integrates gamification, personalized learning paths, and a community hub to foster critical thinking and practical skill development.",
+  "features_heading": "Our Core Functionalities",
+  "features": {
+    "module1": {
+      "title": "Core Learning Experience",
+      "description": "High-quality, culturally-relevant, and accessible content with offline access."
+    },
+    "module2": {
+      "title": "Gamification & Progress Tracking",
+      "description": "Engaging learning with quests, badges, and virtual farms."
+    },
+    "module3": {
+      "title": "Personalized Learning & AI-Powered Support",
+      "description": "Tailored learning paths and an 'Ask-a-Tutor' chatbot."
+    }
+  }
+}

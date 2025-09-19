@@ -1,0 +1,118 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+  color: var(--text-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  background: var(--glass-bg);
+  backdrop-filter: blur(15px);
+  z-index: 100;
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.logo-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  letter-spacing: -1px;
+}
+
+.controls-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  text-align: center;
+  padding: 6rem 0;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.hero-slogan {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: var(--text-color);
+  opacity: 0.8;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+.cta-button {
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  color: #fff;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Introduction Section Styles */
+.intro-section {
+  text-align: center;
+  padding: 4rem 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+/* Features Section Styles */
+.features-section {
+  padding: 3rem 0 5rem;
+  width: 100%;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-color);
+}
+
+.feature-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
