@@ -1,0 +1,15 @@
+/* src/pages/Gamification/Gamification.css (Create this new file) */
+.gamification-page {
+  padding: 50px 20px;
+  min-height: 100vh;
+  background-color: #e6f7ff; /* A slightly different blue for the main page */
+  font-family: 'Arial', sans-serif;
+}
+
+.gamification-page h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #1a5c7f; /* A deeper blue for a striking title */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}

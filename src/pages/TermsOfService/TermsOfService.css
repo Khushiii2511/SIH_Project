@@ -1,0 +1,50 @@
+.terms-of-service-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: calc(100vh - 80px); /* Adjust based on header/footer height */
+}
+
+.terms-of-service-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.terms-of-service-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.last-updated {
+  font-size: 0.9rem;
+  color: var(--text-color-light);
+}
+
+.terms-content {
+  line-height: 1.8;
+}
+
+.terms-content section {
+  margin-bottom: 30px;
+}
+
+.terms-content h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.terms-of-service-container p {
+  color: var(--text-color);
+}
+
+.light-theme .terms-of-service-container {
+  background-color: var(--background-color);
+}
+
+.dark-theme .terms-of-service-container {
+  background-color: var(--background-color);
+}
